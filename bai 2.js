@@ -1,6 +1,3 @@
-let old = parseInt(prompt("hãy nhập số tuôir của bạn"));
-if (old >= 16) {
-    alert("Bạn đủ điều kiện vào lớp 10");
-} else {
-    alert("Bạn không đủ tuổi");
-}
+let m = parseFloat(prompt("Hãy nhập met muốn đổi"));
+let b = m * 3.2808398950131;
+alert(b + "feet");

@@ -1,6 +1,3 @@
-let i = parseInt(prompt("hãy nhập một số nguyên bất kỳ"));
-if (i>0) {
-    alert(i + " lớn hơn 0");
-} else {
-    alert(i + " nhỏ hon không");
-}
+let a = parseFloat(prompt("hãy nhập một cạnh của hình vuông"));
+let s = a**2;
+alert("Diẹn tích của hình vuông là " + s);

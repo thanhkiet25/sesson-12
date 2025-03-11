@@ -1,7 +1,3 @@
-let a = parseFloat(prompt("hayz nhập số a"));
-let b = parseFloat(prompt("hayz nhập số b"));
-if (a % b === 0) {
-    alert("a chia hết cho b") 
-} else {
-    alert("a không chia hết cho b");
-}
+let a = parseInt(prompt("hãy nhập đôc c mà bạn muốn chuyển đổi"));
+a = (a * (9/5)) + 32;
+alert(a + "F");
